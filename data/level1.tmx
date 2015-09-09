@@ -24,7 +24,6 @@
    <properties>
     <property name="Class" value="Goomba"/>
     <property name="sprite" value="goomba"/>
-    <property name="vx" value="20"/>
    </properties>
   </tile>
  </tileset>

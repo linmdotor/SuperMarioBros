@@ -241,6 +241,7 @@ Q.Enemy.extend("Goomba", {
   init: function(p) {
     this._super(p,{
     });
+    this.p.vx = -20; //this goes here because doesn't work in the super constructor... why?
   },
 
   step: function(dt) {
