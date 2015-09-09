@@ -64,11 +64,13 @@ Q.Sprite.extend("Player",{
 			this.p.secondCounter = 1 - this.p.secondCounter;
 		}
 
-		//run when the key Z is pressed
-		if(Q.inputs['fire']) {
-			this.p.speed = 300;
-		} else {
-			this.p.speed = 200;
+		//runs when is landed and the key Z is pressed 
+		if(this.p.landed > 0) {
+			if(Q.inputs['fire']) {
+				this.p.speed = 300;
+			} else {
+				this.p.speed = 200;
+			}
 		}
 
 		//follow the character unless he is in the corners of the map
@@ -549,8 +551,8 @@ Q.loadTMX("level1.tmx, mainTitle.png, mario_small_modified.png, mario_small_modi
 	Q.compileSheets("goomba.png","goomba.json");
 	//Make the animations
 	Q.animations("mario", {
-		walk_right: { frames: [1,2], rate: 0.5, flip: false, loop: false, next: 'stand_right' },
-		walk_left: { frames:  [1,2], rate: 0.5, flip: 'x', loop: false, next: 'stand_left' },
+		walk_right: { frames: [1,2], rate: 0.3, flip: false, loop: false, next: 'stand_right' },
+		walk_left: { frames:  [1,2], rate: 0.3, flip: 'x', loop: false, next: 'stand_left' },
 		run_right: { frames: [1,2], rate: 0.2, flip: false, loop: false, next: 'stand_right' },
 		run_left: { frames:  [1,2], rate: 0.2, flip: 'x', loop: false, next: 'stand_left' },
 		jump_right: { frames: [4], rate: 0.5, flip: false },
