@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="250" height="18" tilewidth="34" tileheight="34">
- <tileset firstgid="1" name="tiles" tilewidth="34" tileheight="34">
+<map version="1.0" orientation="orthogonal" width="250" height="18" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32" spacing="2">
   <image source="../images/tiles.png" width="256" height="256"/>
   <tile id="37">
    <properties>
@@ -9,7 +9,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="50" name="coin" tilewidth="34" tileheight="34">
+ <tileset firstgid="50" name="coin" tilewidth="32" tileheight="32">
   <image source="../images/coin.png" width="102" height="34"/>
   <tile id="2">
    <properties>
@@ -13583,99 +13583,96 @@
   </data>
  </layer>
  <objectgroup name="coins" width="250" height="18">
-  <object gid="52" x="4692" y="544"/>
-  <object gid="52" x="4794" y="476"/>
-  <object gid="52" x="4828" y="476"/>
-  <object gid="52" x="4862" y="510"/>
-  <object gid="52" x="4318" y="408"/>
-  <object gid="52" x="4352" y="408"/>
-  <object gid="52" x="4658" y="544"/>
-  <object gid="52" x="5576" y="408"/>
-  <object gid="52" x="5542" y="408"/>
-  <object gid="52" x="5508" y="408"/>
-  <object gid="52" x="5474" y="408"/>
-  <object gid="52" x="5814" y="374"/>
-  <object gid="52" x="6086" y="374"/>
-  <object gid="52" x="5950" y="442"/>
-  <object gid="52" x="5984" y="442"/>
-  <object gid="52" x="5916" y="442"/>
-  <object gid="52" x="6766" y="204"/>
-  <object gid="52" x="6834" y="204"/>
-  <object gid="52" x="6902" y="204"/>
-  <object gid="52" x="6698" y="204"/>
-  <object gid="52" x="7344" y="544"/>
-  <object gid="52" x="7310" y="544"/>
-  <object gid="52" x="7276" y="544"/>
-  <object gid="52" x="7242" y="544"/>
-  <object gid="52" x="7208" y="544"/>
-  <object gid="52" x="7718" y="510"/>
-  <object gid="52" x="7786" y="476"/>
-  <object gid="52" x="3434" y="306"/>
-  <object gid="52" x="3502" y="306"/>
+  <object gid="52" x="4352" y="512"/>
+  <object gid="52" x="4480" y="448"/>
+  <object gid="52" x="4512" y="448"/>
+  <object gid="52" x="4544" y="480"/>
+  <object gid="52" x="4096" y="352"/>
+  <object gid="52" x="4064" y="352"/>
+  <object gid="52" x="4320" y="512"/>
+  <object gid="52" x="5248" y="416"/>
+  <object gid="52" x="5216" y="416"/>
+  <object gid="52" x="5184" y="416"/>
+  <object gid="52" x="5152" y="416"/>
+  <object gid="52" x="5856" y="384"/>
+  <object gid="52" x="5888" y="384"/>
+  <object gid="52" x="5600" y="448"/>
+  <object gid="52" x="5632" y="448"/>
+  <object gid="52" x="5568" y="448"/>
+  <object gid="52" x="6368" y="192"/>
+  <object gid="52" x="6432" y="192"/>
+  <object gid="52" x="6496" y="192"/>
+  <object gid="52" x="6304" y="192"/>
+  <object gid="52" x="6912" y="416"/>
+  <object gid="52" x="6880" y="416"/>
+  <object gid="52" x="6848" y="416"/>
+  <object gid="52" x="6816" y="416"/>
+  <object gid="52" x="6784" y="416"/>
+  <object gid="52" x="7296" y="448"/>
+  <object gid="52" x="7328" y="448"/>
+  <object gid="52" x="3232" y="288"/>
+  <object gid="52" x="3296" y="288"/>
  </objectgroup>
  <objectgroup name="boxes" width="250" height="18">
-  <object gid="38" x="6732" y="170"/>
-  <object gid="38" x="6800" y="170">
+  <object gid="38" x="6336" y="160"/>
+  <object gid="38" x="6400" y="160">
    <properties>
     <property name="coins" value="3"/>
    </properties>
   </object>
-  <object gid="38" x="6868" y="170"/>
-  <object gid="38" x="5950" y="408">
+  <object gid="38" x="6464" y="160"/>
+  <object gid="38" x="5600" y="416">
    <properties>
     <property name="coins" value="3"/>
    </properties>
   </object>
-  <object gid="38" x="7616" y="204"/>
-  <object gid="38" x="476" y="442"/>
-  <object gid="38" x="646" y="442"/>
-  <object gid="38" x="714" y="442"/>
-  <object gid="38" x="680" y="306">
+  <object gid="38" x="7168" y="192"/>
+  <object gid="38" x="448" y="416"/>
+  <object gid="38" x="608" y="416"/>
+  <object gid="38" x="672" y="416"/>
+  <object gid="38" x="640" y="288">
    <properties>
     <property name="coins" value="3"/>
    </properties>
   </object>
-  <object gid="38" x="2448" y="442"/>
-  <object gid="38" x="2992" y="306">
+  <object gid="38" x="2304" y="416"/>
+  <object gid="38" x="2816" y="288">
    <properties>
     <property name="coins" value="3"/>
    </properties>
   </object>
-  <object gid="38" x="2108" y="408">
+  <object gid="38" x="1984" y="416">
    <properties>
     <property name="coins" value="3"/>
    </properties>
   </object>
-  <object gid="38" x="2992" y="442"/>
+  <object gid="38" x="2816" y="416"/>
  </objectgroup>
  <objectgroup name="characters" width="250" height="18">
-  <object gid="53" x="4490" y="546"/>
-  <object gid="68" x="8228" y="510"/>
-  <object gid="65" x="8092" y="544"/>
-  <object gid="53" x="4930" y="544"/>
-  <object gid="53" x="5066" y="544"/>
-  <object gid="53" x="5882" y="544"/>
-  <object gid="53" x="6018" y="544"/>
-  <object gid="53" x="6664" y="272"/>
-  <object gid="53" x="6936" y="272"/>
-  <object gid="53" x="7276" y="544"/>
-  <object gid="53" x="7820" y="544"/>
-  <object gid="65" x="7276" y="510"/>
-  <object gid="65" x="6800" y="272"/>
-  <object gid="65" x="5508" y="544"/>
-  <object gid="65" x="5508" y="544"/>
-  <object gid="65" x="5542" y="544"/>
-  <object gid="65" x="4760" y="476"/>
-  <object gid="69" x="34" y="544"/>
-  <object gid="53" x="680" y="544"/>
-  <object gid="65" x="6800" y="136"/>
-  <object gid="53" x="1292" y="544"/>
-  <object gid="53" x="1700" y="544"/>
-  <object gid="53" x="1768" y="544"/>
-  <object gid="53" x="2754" y="272"/>
-  <object gid="53" x="2686" y="272"/>
-  <object gid="53" x="4046" y="442"/>
-  <object gid="53" x="3366" y="442"/>
-  <object gid="53" x="2890" y="544"/>
+  <object gid="53" x="4448" y="512"/>
+  <object gid="68" x="7744" y="480"/>
+  <object gid="53" x="4640" y="512"/>
+  <object gid="53" x="4768" y="512"/>
+  <object gid="53" x="5536" y="512"/>
+  <object gid="53" x="5664" y="512"/>
+  <object gid="53" x="6272" y="256"/>
+  <object gid="53" x="6528" y="256"/>
+  <object gid="53" x="6848" y="512"/>
+  <object gid="65" x="7552" y="512"/>
+  <object gid="65" x="6400" y="256"/>
+  <object gid="65" x="5184" y="512"/>
+  <object gid="65" x="5216" y="512"/>
+  <object gid="65" x="4496" y="444"/>
+  <object gid="69" x="32" y="512"/>
+  <object gid="53" x="640" y="512"/>
+  <object gid="65" x="6400" y="128"/>
+  <object gid="53" x="1312" y="512"/>
+  <object gid="53" x="1632" y="512"/>
+  <object gid="53" x="1696" y="512"/>
+  <object gid="53" x="2592" y="256"/>
+  <object gid="53" x="2528" y="256"/>
+  <object gid="53" x="3808" y="416"/>
+  <object gid="53" x="3168" y="416"/>
+  <object gid="53" x="2656" y="512"/>
  </objectgroup>
 </map>

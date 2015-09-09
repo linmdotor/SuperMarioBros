@@ -23,8 +23,8 @@ Q.SPRITE_ENEMY = 2;
 Q.SPRITE_COLLECTABLE = 4;
 Q.SPRITE_FRIEND = 8;
 
-backgroundH = 18*34;
-backgroundW = 250*34; //CHANGE THIS CONSTANT FOR A VARABLE REFERED TO THE STAGE WIDTH
+backgroundH = 18*32;
+backgroundW = 250*32; //CHANGE THIS CONSTANT FOR A VARABLE REFERED TO THE STAGE WIDTH
 
 // ## Define the class "Player"
 Q.Sprite.extend("Player",{
@@ -509,7 +509,7 @@ Q.scene("level1", function(stage) {
 
 	//The main viewport
 	stage.add("viewport");
-	stage.viewport.centerOn(160, 370);
+	stage.viewport.centerOn(160, 336);
 	//stage.viewport.offsetX = -Q.width/3;
 	//stage.viewport.offsetY = 100;
 
