@@ -392,7 +392,7 @@ Q.Sprite.extend("MagicBox", {
     this._super(p,{
       sheet: p.sprite,
       
-      coins: 3,
+      coins: 1,
       vx: 0,
       vy: 0,
       gravity: 0,

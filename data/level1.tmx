@@ -13615,17 +13615,37 @@
  </objectgroup>
  <objectgroup name="boxes" width="250" height="18">
   <object gid="38" x="6732" y="170"/>
-  <object gid="38" x="6800" y="170"/>
+  <object gid="38" x="6800" y="170">
+   <properties>
+    <property name="coins" value="3"/>
+   </properties>
+  </object>
   <object gid="38" x="6868" y="170"/>
-  <object gid="38" x="5950" y="408"/>
+  <object gid="38" x="5950" y="408">
+   <properties>
+    <property name="coins" value="3"/>
+   </properties>
+  </object>
   <object gid="38" x="7616" y="204"/>
   <object gid="38" x="476" y="442"/>
   <object gid="38" x="646" y="442"/>
   <object gid="38" x="714" y="442"/>
-  <object gid="38" x="680" y="306"/>
+  <object gid="38" x="680" y="306">
+   <properties>
+    <property name="coins" value="3"/>
+   </properties>
+  </object>
   <object gid="38" x="2448" y="442"/>
-  <object gid="38" x="2992" y="306"/>
-  <object gid="38" x="2108" y="408"/>
+  <object gid="38" x="2992" y="306">
+   <properties>
+    <property name="coins" value="3"/>
+   </properties>
+  </object>
+  <object gid="38" x="2108" y="408">
+   <properties>
+    <property name="coins" value="3"/>
+   </properties>
+  </object>
   <object gid="38" x="2992" y="442"/>
  </objectgroup>
  <objectgroup name="characters" width="250" height="18">
