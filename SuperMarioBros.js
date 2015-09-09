@@ -24,7 +24,7 @@ Q.SPRITE_COLLECTABLE = 4;
 Q.SPRITE_FRIEND = 8;
 
 backgroundH = 18*34;
-backgroundW = 150*34; //CHANGE THIS CONSTANT FOR A VARABLE REFERED TO THE STAGE WIDTH
+backgroundW = 250*34; //CHANGE THIS CONSTANT FOR A VARABLE REFERED TO THE STAGE WIDTH
 
 // ## Define the class "Player"
 Q.Sprite.extend("Player",{
