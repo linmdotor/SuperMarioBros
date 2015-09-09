@@ -72,21 +72,21 @@ Q.Sprite.extend("Player",{
 		}
 
 		//follow the character unless he is in the corners of the map
-		if (this.p.x > (Q.width/2 - this.p.w/2)  && this.p.x < (backgroundW - (Q.width/2 + this.p.w/2))) {
+		if (this.p.x > (Q.width/2 - this.p.cx)  && this.p.x < (backgroundW - (Q.width/2 + this.p.cx))) {
 			this.stage.follow( this, {x: true, y: false});
 		} else {
 			this.stage.follow( this, {x: false, y: false});
 		}
 
 		//dont allow to pass the character more than the map size
-		if (this.p.x < 0 + this.p.w/2) {
-			this.p.x = this.p.w/2;
-		} else if (this.p.x > backgroundW - this.p.w/2){
-			this.p.x = backgroundW - this.p.w/2;
+		if (this.p.x < 0 + this.p.cx) {
+			this.p.x = this.p.cx;
+		} else if (this.p.x > backgroundW - this.p.cx){
+			this.p.x = backgroundW - this.p.cx;
 		}
 
 		//when fall down, dies
-		if( this.p.y >= backgroundH + this.p.h) {
+		if( this.p.y >= backgroundH - this.p.cy) {
 			this.die();
 		}
 
